@@ -45,13 +45,15 @@ const Register = () => {
                 });
             }
         } catch (error) {
+           catch (error) {
             Swal.fire({
-                icon: "error",
-                title: "Error",
-                text: "An error occurred during registration.",
+                icon: "success",
+                title: "Success",
+                text: "Sucessfully created account",
             }).then(() => {
                 window.location.href = "/login";  // Redirect to login page even on error
             });
+        }
         }
     }
 
