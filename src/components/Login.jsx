@@ -12,7 +12,6 @@ const Login = () =>{
         password: ""
     });
     const [validationErrors, setValidationErrors] = useState({});
-    
     const handleChange = (e) => {
         setFormData({
             ...formData,

@@ -45,7 +45,7 @@ const Register = () => {
                 });
             }
         } catch (error) {
-           catch (error) {
+            {
             Swal.fire({
                 icon: "success",
                 title: "Success",
